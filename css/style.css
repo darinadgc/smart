@@ -542,6 +542,10 @@ top: -54%;
 	
 	top: -64%;
   }
+	 .about__wrapper > div{
+	 width: 80%;
+	 }
+	 
 }
  @media (min-width: 482px) {	
 	.slider__item::before {
@@ -605,6 +609,7 @@ line-height: 34px}
 	
 .about__wrapper > div {
 	width: 231px;
+	width:61%;
 }
 }
 @media (min-width: 674px)	{
