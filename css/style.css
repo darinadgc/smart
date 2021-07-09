@@ -318,7 +318,7 @@ background-color: #ff5c36;
 .featured__text,.share-buttons i {
 opacity: 0.5;
 }
-.featured__wrapper > div {
+.featured__wrapper > div {width:70%;
 	flex: 0 1 70%;
 	width: 360px;
 	min-height: 223px;
@@ -525,7 +525,8 @@ top: -54%;
 }	
  @media (min-width: 402px) {	
 	.clients__text{margin-bottom: -11%}
-	 .featured__wrapper>div{flex: 0 1 46%;}
+	 .featured__wrapper>div{width: 45%;
+		 flex: 0 1 46%;}
 }
 
  @media (min-width: 441px) {	
