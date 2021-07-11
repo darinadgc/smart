@@ -39,6 +39,10 @@ h3 {
 .services__img {
 	display: none;
 }
+.about__wrapper > div {
+	width:85%
+}  
+
 body,.slider__item_item {
 	border-radius: 1px;
 }
