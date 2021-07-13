@@ -1,2 +1,2 @@
-# Smartalp
+# Smart
 Landing
