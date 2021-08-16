@@ -599,7 +599,9 @@ line-height: 34px}
 	 .about__wrapper i {
 	font-size: 41px;
 }
-	 
+	.about__wrapper > div {
+	width: 40%;
+} 
 	
 
 }
@@ -722,7 +724,9 @@ h1, h2 {
 	
 	top: -47%;
 }
-	
+	.about__wrapper > div {
+	width: 30%;
+}
 }
 
 @media (min-width: 1033px) {
@@ -789,6 +793,9 @@ h1, h2 {
 	
 	flex: 1 1 auto;
 	display: block;
+}
+	.about__wrapper > div {
+	width: 20%;
 }
 }
 @media (min-width: 1327px) {
