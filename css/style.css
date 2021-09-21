@@ -181,7 +181,7 @@ line-height: 12px;
 	bottom: -13%;
 	box-shadow: 1px 1px 4px 0px rgba(20,20,21,0.09);
 }
-.chinen,.menu__icon::before,.menu__icon::after,.slider__item::before 
+.chinen,.menu__icon::before,.menu__icon::after,.slider__item::before,.about__wrapper .button 
 {
 	position: absolute;
 }
