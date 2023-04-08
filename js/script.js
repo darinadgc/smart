@@ -9,12 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 "use strict"
 const iconMenu = document.querySelector('.menu__icon'),
+iconMenuBody = document.querySelector('.menu__icon_div'),
+
 menuBody = document.querySelector('.menu__body'),
 menuLinks = document.querySelectorAll('.menu__link[data-goto]'),
 chinen =  document.querySelectorAll('.chinen'),
 team = document.querySelectorAll('.skills__wrapper>.df');
 if (iconMenu) {
-	iconMenu.addEventListener("click", function (e) {
+	iconMenuBody.addEventListener("click", function (e) {
 		document.body.classList.toggle('_lock');
 		iconMenu.classList.toggle('_active');
 		menuBody.classList.toggle('_active');
@@ -22,19 +24,6 @@ if (iconMenu) {
 }
 
 
-
-
-
-// if (chinen) { 
-// 	for (chinenLink of chinen) { 
-		
-// 	chinenLink.addEventListener("click", function (e) {
-//   let i  = e.target; team[i].classList.toggle('active');
-		
-// 		}
-// 	)
-// }
-// }
 	
 if (chinen.length>0) {
 	chinen.forEach(chinenLink=>{
