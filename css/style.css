@@ -458,6 +458,7 @@ background: #706B73;
 }
 .partner {
 	padding: 3.4% 5.6%;
+	justify-content: space-evenly;
 }
 
 .menu__body._active {
@@ -471,7 +472,7 @@ background: #706B73;
 .menu__list:last-child{
 	margin-bottom:  0;
 }
-.partner, header > .container {
+header > .container {
 	justify-content: space-between;
 }
 .menu__icon {background-color: rgba(23,15,28,.6);
